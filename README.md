@@ -1,6 +1,8 @@
 # juliaSet
-An attempt at the Julia Set using Python + Pygame
+first time using guthib so this is kind of a test.
 
+
+An attempt at the Julia Set using Python + Pygame
 
 
 google definition of a Julia Set : a set of complex numbers which do not converge to any limit when a given mapping is repeatedly applied to them
