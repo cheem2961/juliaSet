@@ -86,7 +86,7 @@ def main():
 		
 		
 	
-	
+h
 #variables
 escape = 100
 #c = complex (-0.5264529058,0.5199837174)
