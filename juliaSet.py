@@ -1,8 +1,6 @@
 import pygame
 import math as m
-import random
 import numpy as np
-import time
 import cmath
 import colorsys
 pygame.init()
@@ -31,7 +29,7 @@ def coordToColour(x,y):
 	colour = hsv2rgb(iteration/100,1,1)
 	pygame.draw.rect(screen,colour,(x*res,y*res,res,res))
 	
-	
+#controls
 def keyListen():
 	global res
 	global c
@@ -69,7 +67,6 @@ def main():
 	
 	running = True
 	while running:
-		
 		#pygame events
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
@@ -85,8 +82,6 @@ def main():
 		pygame.display.update()
 		
 		
-	
-h
 #variables
 escape = 100
 #c = complex (-0.5264529058,0.5199837174)
